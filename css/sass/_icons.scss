@@ -1,0 +1,160 @@
+.icon{
+  max-width: 64px;
+  transition: .5s ease;
+
+  @include responsive(s){
+    max-width: 56px;
+  }
+
+  &:hover{
+    transform: translate(0,-4px,0);
+  }
+}
+
+.icon-s{
+  max-width: 40px;
+  transition: .5s ease;
+
+  @include responsive(s){
+    max-width: 32px;
+  }
+
+  &:hover{
+    transform: translate(0,-4px,0);
+  }
+}
+
+.icon-xs{
+  max-width: 24px;
+  transition: .5s ease;
+
+  @include responsive(s){
+    max-width: 24px;
+  }
+
+  &:hover{
+    transform: translate(0,-4px,0);
+  }
+}
+
+.icon-m{
+  max-width: 96px;
+  transition: .5s ease;
+
+  @include responsive(s){
+    max-width: 80px;
+  }
+}
+
+.icon-l{
+  max-width: 120px;
+  transition: .5s ease;
+
+  @include responsive(s){
+    max-width: 96px;
+  }
+}
+
+.icon-xl{
+  max-width: 172px;
+  transition: .5s ease;
+
+  @include responsive(s){
+    max-width: 144px;
+  }
+
+}
+
+.icon-enterprise{
+  filter: grayscale(100%) opacity(30%);
+  transition: 1s ease;
+
+  &:hover{
+    filter: grayscale(0%);
+  }
+}
+
+.icon-title{
+  width: 56px;
+  height: 56px;
+
+  border-radius: 50%;
+}
+
+.icon-animation{
+  width: 56px;
+  height: 56px;
+  position: relative;
+
+  border-radius: 50%;
+
+  animation: rotate-icon 7s ease-in-out infinite alternate;
+}
+
+.icon-animation-dashed{
+  width: 56px;
+  height: 56px;
+  position: relative;
+
+  border-radius: 50%;
+
+  border: 2px dashed $yellow-light;
+
+  animation: rotate-icon 7s ease-in-out 2s infinite alternate;
+}
+
+.icon-animation-solid{
+  width: 56px;
+  height: 56px;
+  position: relative;
+
+  border-radius: 50%;
+
+  border: 2px solid $yellow-light;
+}
+
+@keyframes rotate-icon{
+  0%,50%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+
+
+.bg-icon-animation-blue{
+  background-color: $primary-normal;
+  transition: .5s ease;
+
+  &:hover{
+    background-color: $primary-light;
+  }
+}
+
+.bg-icon-animation-yellow{
+  background-color: $secondary-normal;
+
+  transition: .5s ease;
+
+  &:hover{
+    background-color: $secondary-light;
+  }
+}
+
+.bg-icon-animation-white{
+  background-color: $white-normal;
+
+  transition: .5s ease;
+
+  &:hover{
+    background-color: $white-light;
+    opacity: .8;
+  }
+}
+
+.path-white{
+  path{
+    fill: #fff;
+  }
+}

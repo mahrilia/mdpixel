@@ -1,0 +1,68 @@
+.btn{
+  display: inline-block;
+  background-color: $primary-dark;
+  padding: 14px 40px;
+
+  text-decoration: none;
+  color: $white-light;
+
+  border-radius: 8px;
+
+  @include typeface-1(h8, desktop);
+
+  @include responsive(s) {
+    @include typeface-1(h8, mobile);
+  }
+
+  transition: .4s ease;
+
+  &:hover{
+    transform: scale(1.05);
+    background-color: #0D969B;
+    box-shadow: 0px 4px 10px 0px rgba(5, 30, 31, 0.20);
+  }
+  
+}
+
+.btn-secondary{
+  display: inline-block;
+  background-color: transparent;
+  padding: 14px 40px;
+
+  text-decoration: none;
+  color: $primary-dark;
+
+  border-radius: 8px;
+  border: 2px solid $primary-dark;
+
+  @include typeface-1(h8, desktop);
+
+  @include responsive(s) {
+    @include typeface-1(h8, mobile);
+  }
+
+  transition: .4s ease;
+
+  &:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 4px 10px 0px rgba(5, 30, 31, 0.20);
+  }
+  
+}
+.link-footer{
+  text-decoration: none;
+  color: $black-light;
+  display: inline-block;
+
+  @include typeface-1(h8, desktop);
+  @include responsive(s) {
+    @include typeface-1(h8, mobile);
+  }
+  transition: .4s ease;
+
+  &:hover{
+    transform: translate3d(0px,-2px,0px);
+    text-shadow: 0px 4px 10px rgba(5, 30, 31, 0.30);
+  }
+}
+
