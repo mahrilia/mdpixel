@@ -1,17 +1,14 @@
-# Projeto ComForma Arquitetura & Urbanismo LTDA.
+# Projeto MD Pixel Landing Page.
 
-📜 Este é o portfólio de Násser Yousef Ali, é o meu portfólio (https://nyousefali.com.br/). É por aqui que divulgo um resumo sobre mim e o link
-dos meus projetos e trabalhos. 
+📜 Esta é uma landing page da MD Pixel, uma empresa de Mídia Indoor. Este é o primeiro projeto real do meu portfólio.
 
 <p align="center">
-<img src="svg/metatag-comforma.png" alt="Metatag Nasser Yousef, está imagem é a logo do Násser Yousef" border="0">
+<img src="svg/metatag-mdpixel.png" alt="Metatag Marília Andrade Moreira, está imagem é a logo da MD Pixel" border="0">
 </p>
 
 
-💡 Basicamente, trata-se de um website que visa aprimorar o entendimento de 
-realizar layouts mais entusiastas, alta fidelidade e variedade de animações.
-É o projeto mais completo, utiliza de todos os recursos de layout como position,
-flexbox, grid system com SASS, GSAP para animações etc.
+💡 Basicamente, trata-se de um website que visa mostrar os serviços e produtos da MD Pixel. São
+utilizadas as seguintes tecnologias e ferramentas:
 
 * HTML5
 * JSES6+
@@ -28,7 +25,7 @@ como o LiveServer do VsCode.
 
 ## 📈 Implementação do projeto
 
-A implementação do projeto voce pode visualizar clicando aqui >> https://nyousefali.com.br/
+A implementação do projeto voce pode visualizar clicando aqui >> https://devmariandrade.com.br/mdpixel
 
 ## 💻 Configuração para Desenvolvimento
 
@@ -40,10 +37,7 @@ ao salvar o projeto.
 
 ## 🚀 Contribuição
 
-1. Conheça os outros projetos do curso em FrontPUSH 2.0 (<https://frontpush.com.br>)
-2. Veja mais projetos gratuitos no GitHub (<https://github.com/nyousefali>)
-3. Veja alguns outros projetos no meu portfólio (<https://nyousefali.com.br>)
-4. Tem alguma dúvida? Me mande uma DM no Instagram (<https://www.instagram.com/nasseryousef__/>)
-5. Mais projetos de Design, veja o Dribbble (<https://dribbble.com/nyousefali>)
-6. Mais códigos de animações gratuitos? Veja no Codepen (<https://codepen.io/nyousefali>)
-7. Muito obrigado por estar aqui! \o/
+1. Veja mais projetos gratuitos no GitHub (<https://github.com/mahrilia>)
+2. Veja alguns outros projetos no meu portfólio (<https://devmariandrade.com.br>)
+3. Tem alguma dúvida? Me mande uma DM no Instagram (<https://www.instagram.com/marilia131120/>)
+4. Muito obrigada! <3
