@@ -112,7 +112,7 @@
     transform: translate(-50%, -50%);
 
     z-index: 999;
-    background-color: $white-normal;
+    background-color: $black-light;
     position: fixed;
 
     display: flex;
@@ -120,47 +120,5 @@
     align-items: center;
 
     pointer-events: none;
-
-    .ball-loading{
-        width: 64px;
-        height: 64px;
-        border-radius: 50%;
-
-        background-color: $primary-normal;
-
-        animation: ball-loading 4s ease forwards;
-
-        svg{
-            transform: scale(0.9) translate3d(-3px,0,0);
-            animation: logo-loading 4s ease forwards;
-        }
-    }
 }
 
-@keyframes ball-loading{
-    0%{
-        background-color: $gray-5; 
-        transform: scale(0.8) rotate(0deg);
-        border-radius: 5%;
-    }
-    25%{
-        background-color: $secondary-normal;
-    }
-    50%{
-        background-color: $primary-normal;
-    }
-    100%{
-        background-color: $white-light;
-        transform: scale(1) rotate(1080deg);
-        border-radius: 50%;
-    }
-}
-
-@keyframes logo-loading{
-    0%, 60%{
-        opacity: 0;
-    }
-    100%{
-        opacity: 1;
-    }
-}

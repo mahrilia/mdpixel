@@ -39,11 +39,19 @@
 </head>
 <body>
 
+    <!--=====================================================================-->
+    <!--=========== SCREEN LOADING ============-->
+    <!--=====================================================================-->
+
+    <!--
+    <div class="screen-loading">
+        <img src="svg/logo-animate.svg" class="logo-animate icon-m" alt="" onload="SVGInject(this)" /> 
+    </div>
+    -->
 
     <!--=====================================================================-->
     <!--=========== MENU ============-->
     <!--=====================================================================-->
-
     <header class="">
         <nav class="">
             <div class="logo">
@@ -61,16 +69,32 @@
     </header>
 
 
+    <!--
+    <section class="bg-video">
+        <video class="video" preload="none" autoplay muted loop>
+            <source src="video/video-midia-1.mp4" type="video/mp4">
+        </video>
+    </section>
+    -->
+    <div class="father-video">
+        <div class="bg-video">
+            <video class="video" autoplay muted loop>
+                <source src="video/video-midia-1.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+    
+    
 
     <!--=====================================================================-->
     <!--=========== HERO ============-->
     <!--=====================================================================-->
-    <section class="container">
+    <section class="container box-hero flex-center">
         <div class="row">
             <div class="grid-2"></div>
             <div class="grid-8 flex-center flex-column">
-                <h6 class="uppercase h7">MD pixel</h6>
-                <h3 class="text-center mt-1">Soluções Completas de Mídia Indoor para Empresas Modernas</h3>
+                <h6 class="uppercase h7 color-white">MD pixel</h6>
+                <h3 class="text-center color-white mt-1">Soluções Completas de Mídia Indoor para Empresas Modernas</h3>
                 <p class="text-center mt-4" style="max-width: 700px;">
                     Na MD Pixel, oferecemos soluções 
                     completas de mídia indoor que transformam 
@@ -315,26 +339,104 @@
         </div>
     </div>
  </section>
- <!--=====================================================================-->
-    <!--===========ENTRE EM CONTATO============-->
-    <!--====================================================================-->
-    <section class="container">
+
+
+     <!--=====================================================================-->
+    <!--=========== FAQ  ============-->
+    <!--=====================================================================-->
+    <section class="container pt-0" >
         <div class="row">
-            <div class="grid-1"></div>
-            <div class="grid-8">
-                <h6 class="uppercase h7 color-primary mb-2">ENTRE EM CONTATO</h6>
-                <h3 class=" mt-1">Pronto para Transformar a Comunicação da Sua Empresa?</h3>
-                <p class=" mt-4" style="max-width: 530px;">
-                    Na MD Pixel, estamos aqui para levar sua comunicação interna ao próximo nível. Com nossas soluções de mídia indoor, você melhora a experiência do cliente, otimiza processos e destaca sua marca de forma impactante.
+            <div class="grid-4">
+                <h6 class="h7 uppercase color-primary">
+                    FAQ
+                </h6>
+                <h3>Perguntas Frequentes</h3>
+                <h6 class="color-primary mt-2">Ainda tem dúvida? Vamos conversar.</h6>
+                <p class="mt-3">Se você tem alguma dúvida, sugestão ou até mesmo uma 
+                    reclamação, entre em contato. Queremos te ouvir
                 </p>
-                <div class="mt-4">
-                    <a href="" class="btn mr-3">Contato</a>
+                <a href="" class="btn mt-3">Mandar mensagem</a>
+            </div>
+            <div class="grid-1"></div>
+            <div class="grid-6">
+
+
+                <div class="accordion my-1 py-1">
+
+
+                    <button type="button" class="accordion-button"> 
+                        <h6 class="pr-2 h7">Precisa ter conhecimento prévio de UX?</h6> 
+                    </button>
+                    <div class="accordion-content">
+                        <p class="py-3 px-3 p3">
+                            Sabe conectar um computador à internet e é uma 
+                            pessoa disposta e esforçada? Ótimo. Você já tem 
+                            tudo que é preciso para se tornar uma pessoa aluna 
+                            da DC. Esse é todo conhecimento necessário. Não 
+                            importa se você não sabe nada de designer, se não 
+                            trabalha com digital, ou ainda não tem uma profissão. 
+                            Tudo que é preciso você aprende com a gente lá dentro.
+                        </p>
+                    </div>
+        
                 
+                    <button type="button" class="accordion-button"> 
+                        <h6 class="pr-2 h7">Tem certificado?</h6> 
+                    </button>
+                    <div class="accordion-content">
+                        <p class="py-3 px-3 p3">
+                            Sim, temos! Mas lembre-se: O que importa aqui é o 
+                            aprendizado. Se você busca apenas a certificação, 
+                            talvez esse curso não seja para você.
+                        </p>
+                    </div>
+
+                    
+
+                    <button type="button" class="accordion-button"> 
+                        <h6 class="pr-2 h7">Tem certificado?</h6> 
+                    </button>
+                    <div class="accordion-content">
+                        <p class="py-3 px-3 p3">
+                            Sim, temos! Mas lembre-se: O que importa aqui é o 
+                            aprendizado. Se você busca apenas a certificação, 
+                            talvez esse curso não seja para você.
+                        </p>
+                    </div>
+
+
+
                 </div>
             </div>
-            <div class="grid-3"></div>
+            <div class="grid-1"></div>
         </div>
     </section>
+
+
+
+    <!--=====================================================================-->
+    <!--===========ENTRE EM CONTATO============-->
+    <!--====================================================================-->
+    <div class="bg-cta">
+        <section class="container">
+            <div class="row">
+                <div class="grid-1"></div>
+                <div class="grid-8">
+                    <h6 class="uppercase h7 color-primary mb-2">ENTRE EM CONTATO</h6>
+                    <h3 class="color-white mt-1">Pronto para Transformar a Comunicação da Sua Empresa?</h3>
+                    <p class=" mt-4" style="max-width: 530px;">
+                        Na MD Pixel, estamos aqui para levar sua comunicação interna ao próximo nível. Com nossas soluções de mídia indoor, você melhora a experiência do cliente, otimiza processos e destaca sua marca de forma impactante.
+                    </p>
+                    <div class="mt-4">
+                        <a href="" class="btn mr-3">Contato</a>
+                    
+                    </div>
+                </div>
+                <div class="grid-3"></div>
+            </div>
+        </section>
+    </div>
+    
 
     <!--=====================================================================-->
     <!--===========FOOTER============-->
@@ -392,6 +494,33 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
     <script src="js/app.js"></script>
+
+    <script>
+        /*
+        Basicamente será startada uma função genérica assim 
+        que a árvore DOM de elementos estiver carregada.
+        */
+        document.addEventListener("DOMContentLoaded", () =>{
+
+            /*--=========== TIMELINE LOADING E HERO ============- */
+            var tl1 = gsap.timeline();
+                
+                tl1
+                .to('.screen-loading', {
+                duration: 2,
+                opacity: 0, 
+                delay: 3,
+                ease: "power4.out",
+                })
+                .from('.box-hero div', {
+                duration: 2,
+                opacity: 0, 
+                y: 200,
+                stagger:{each: 0.2},
+                ease: "power4.out",
+                }, '-=1.2')
+        })
+    </script>
 
 
 </body>

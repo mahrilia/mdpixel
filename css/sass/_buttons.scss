@@ -1,12 +1,14 @@
 .btn{
   display: inline-block;
   background-color: $primary-dark;
-  padding: 14px 40px;
+  padding: 14px 58px 14px 32px;
 
   text-decoration: none;
   color: $white-light;
 
   border-radius: 8px;
+
+  position: relative;
 
   @include typeface-1(h8, desktop);
 
@@ -16,10 +18,37 @@
 
   transition: .4s ease;
 
+  &::after{
+    content: '';
+
+    position: absolute;
+    top: 50%;
+    right: 12px;
+
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+
+    transform: translate(-00%, -50%);
+
+    background-color: white;
+
+    transition: .7s ease;
+
+    background-image: url('../svg/icon-arrow.svg');
+    background-position: center center;
+    background-size: 80%;
+  }
+
   &:hover{
     transform: scale(1.05);
     background-color: #0D969B;
     box-shadow: 0px 4px 10px 0px rgba(5, 30, 31, 0.20);
+
+
+    &::after{
+      transform: translate(-00%, -50%) rotate(360deg);
+    }
   }
   
 }

@@ -8,16 +8,16 @@
     text-align: left;
     background-color: transparent;
     position: relative;
-    padding: 14px 16px;
-    border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+    padding: 32px 16px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
 
-    background-color: $secondary-normal;
+    background-color: transparent;
     transition: 0.7s ease;
 
     color: $black-dark;
-    @include typeface-1(h5, desktop);
+    @include typeface-1(h7, desktop);
     @include responsive(s) {
-        @include typeface-1(h5, mobile);
+        @include typeface-1(h7, mobile);
     }
 
     &::before{
@@ -31,8 +31,8 @@
         height: 8px;
         border-radius: 1px;
         transition: .5s ease;
-        border-right: 2px solid $primary-normal;
-        border-top: 2px solid $primary-normal;
+        border-right: 2px solid $primary-dark;
+        border-top: 2px solid $primary-dark;
 
         transform: rotate(135deg) translate3d(0, 10px,0);
     }
