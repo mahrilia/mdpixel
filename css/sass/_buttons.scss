@@ -81,6 +81,32 @@
   }
   
 }
+
+.btn-third{
+  display: inline-block;
+  background-color:rgba(255, 255, 255, 0.2);;
+  padding: 14px 40px;
+
+  text-decoration: none;
+  color: $primary-dark;
+
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+
+  @include typeface-1(h8, desktop);
+
+  @include responsive(s) {
+    @include typeface-1(h8, mobile);
+  }
+
+  transition: .4s ease;
+
+  &:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 4px 10px 0px rgba(5, 30, 31, 0.20);
+  }
+  
+}
 .link-footer{
   text-decoration: none;
   color: $black-light;
