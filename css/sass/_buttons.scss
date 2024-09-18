@@ -100,6 +100,31 @@
   }
 
   transition: .4s ease;
+  position: relative;
+
+  
+  &::after{
+    content: '';
+
+    position: absolute;
+    top: 50%;
+    right: 12px;
+
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+
+    transform: translate(-00%, -50%);
+
+    background-color: white;
+
+    transition: .7s ease;
+
+    background-image: url('../svg/icon-arrow.svg');
+    background-position: center center;
+    background-size: 80%;
+  }
+
 
   &:hover{
     transform: scale(1.05);
