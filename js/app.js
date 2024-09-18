@@ -30,6 +30,18 @@ function scrollHeader(){
   
 window.addEventListener('scroll', scrollHeader);
 
+/*
+function scrollLinks(){
+    const links = document.querySelectorAll('.link-menu');
+    links.forEach(item => {
+        // When the scroll is greater than 200 viewport height, add the scroll-header class to the header tag
+        if(this.scrollY >= 2000) item.classList.add('link-menu-black'); else item.classList.remove('link-menu-black')
+    })
+    
+}
+
+window.addEventListener('scroll', scrollLinks);
+*/
 
 
 /*==================== ACCORDION ====================*/ 
