@@ -1,18 +1,17 @@
 .btn{
   display: inline-block;
   background-color: $primary-dark;
-  padding: 14px 58px 14px 32px;
+  padding: 12px 58px 12px 32px;
 
   text-decoration: none;
   color: $white-light;
 
-  border-radius: 8px;
+  border-radius: 12px;
   border: 2px solid rgba(150, 246, 250, 0.1);
 
   position: relative;
 
   @include typeface-1(h8, desktop);
-
   @include responsive(s) {
     @include typeface-1(h8, mobile);
   }
@@ -64,16 +63,16 @@
   text-decoration: none;
   color: $primary-dark;
 
-  border-radius: 8px;
+  border-radius: 12px;
   border: 2px solid $primary-dark;
 
   @include typeface-1(h8, desktop);
-
   @include responsive(s) {
     @include typeface-1(h8, mobile);
   }
 
   transition: .4s ease;
+  font-weight: 600;
 
   &:hover{
     transform: scale(1.05);

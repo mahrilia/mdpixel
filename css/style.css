@@ -793,6 +793,22 @@ canvas {
   width: 25%;
 }
 
+.bb-white {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.bt-white {
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.bl-white {
+  border-left: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.br-white {
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+}
+
 .bb-gray {
   border-bottom: 1px solid #A8D0D1;
 }
@@ -1527,6 +1543,78 @@ canvas {
   z-index: -1;
   pointer-events: none;
   background-color: rgba(0, 0, 0, 0.8);
+}
+
+.container-swiper {
+  max-width: 1216px;
+  margin: 0 auto;
+  padding: 96px 0px;
+  position: relative;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.swiper-container::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 24px;
+  height: 100%;
+  background: linear-gradient(270deg, #0F0F0F 0%, rgba(15, 15, 15, 0) 100%);
+}
+.swiper-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 18px;
+  height: 100%;
+  background: linear-gradient(90deg, #0F0F0F 0%, rgba(15, 15, 15, 0) 100%);
+}
+
+.swiper-slide {
+  max-width: 420px;
+  min-width: 392px;
+  border-radius: 4px;
+}
+@media screen and (max-width: 960px) {
+  .swiper-slide {
+    min-width: 260px;
+  }
+}
+
+.button-next {
+  position: absolute;
+  right: 36px;
+  top: 24px;
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  cursor: pointer;
+  background-image: url("../svg/icon-arrow-white.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: #96F6FA;
+}
+
+.button-prev {
+  position: absolute;
+  right: 108px;
+  top: 24px;
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  cursor: pointer;
+  background-image: url("../svg/icon-arrow-white.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  transform: rotate(180deg);
+  background-color: #96F6FA;
 }
 
 .s-0 {
@@ -3031,10 +3119,10 @@ nav {
 .btn {
   display: inline-block;
   background-color: #24ADB2;
-  padding: 14px 58px 14px 32px;
+  padding: 12px 58px 12px 32px;
   text-decoration: none;
   color: #F7FFFF;
-  border-radius: 8px;
+  border-radius: 12px;
   border: 2px solid rgba(150, 246, 250, 0.1);
   position: relative;
   font-family: "Poppins", sans-serif;
@@ -3084,7 +3172,7 @@ nav {
   padding: 14px 40px;
   text-decoration: none;
   color: #24ADB2;
-  border-radius: 8px;
+  border-radius: 12px;
   border: 2px solid #24ADB2;
   font-family: "Poppins", sans-serif;
   font-optical-sizing: auto;
@@ -3092,6 +3180,7 @@ nav {
   line-height: 150%;
   font-weight: 400;
   transition: 0.4s ease;
+  font-weight: 600;
 }
 @media screen and (max-width: 960px) {
   .btn-secondary {
