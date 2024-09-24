@@ -1504,6 +1504,7 @@ canvas {
 .bg-video {
   width: 100%;
   height: 100vh;
+  border: 3px solid green;
   position: relative;
 }
 .bg-video::after {
