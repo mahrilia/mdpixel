@@ -1504,6 +1504,10 @@ canvas {
 .bg-video {
   width: 100%;
   height: 100vh;
+  background-color: #051E1F;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: relative;
   top: 0;
   left: 0;
@@ -1516,14 +1520,17 @@ canvas {
   position: absolute;
   bottom: 0%;
   right: 0%;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.75);
 }
 
 .video {
-  -o-object-fit: cover;
-     object-fit: cover;
-  -o-object-position: center;
-     object-position: center;
+  height: 100%;
+  transform: scale(1.1);
+}
+@media screen and (max-width: 960px) {
+  .video {
+    transform: scale(1);
+  }
 }
 
 .box-hero {
@@ -1531,7 +1538,7 @@ canvas {
 }
 
 .bg-cta {
-  background-image: url("../svg/img02.webp");
+  background-image: url("../svg/foto-fundo.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -2269,7 +2276,7 @@ canvas {
   font-optical-sizing: auto;
   font-size: 128px;
   line-height: 100%;
-  font-weight: 500;
+  font-weight: 600;
 }
 @media screen and (max-width: 960px) {
   .h0 {
@@ -2277,7 +2284,7 @@ canvas {
     font-optical-sizing: auto;
     font-size: 80px;
     line-height: 100%;
-    font-weight: 500;
+    font-weight: 600;
   }
 }
 @media screen and (max-width: 620px) {
@@ -2286,7 +2293,7 @@ canvas {
     font-optical-sizing: auto;
     font-size: 64px;
     line-height: 100%;
-    font-weight: 500;
+    font-weight: 600;
   }
 }
 
@@ -2297,7 +2304,7 @@ h1 {
   font-optical-sizing: auto;
   font-size: 72px;
   line-height: 110%;
-  font-weight: 500;
+  font-weight: 600;
 }
 @media screen and (max-width: 960px) {
   h1 {
@@ -2305,7 +2312,7 @@ h1 {
     font-optical-sizing: auto;
     font-size: 56px;
     line-height: 110%;
-    font-weight: 500;
+    font-weight: 600;
   }
 }
 @media screen and (max-width: 620px) {
@@ -2314,7 +2321,7 @@ h1 {
     font-optical-sizing: auto;
     font-size: 44px;
     line-height: 120%;
-    font-weight: 500;
+    font-weight: 600;
   }
 }
 
@@ -2324,7 +2331,7 @@ h2 {
   font-optical-sizing: auto;
   font-size: 64px;
   line-height: 110%;
-  font-weight: 500;
+  font-weight: 600;
 }
 @media screen and (max-width: 960px) {
   h2 {
@@ -2332,7 +2339,7 @@ h2 {
     font-optical-sizing: auto;
     font-size: 52px;
     line-height: 120%;
-    font-weight: 500;
+    font-weight: 600;
   }
 }
 @media screen and (max-width: 620px) {
@@ -2341,7 +2348,7 @@ h2 {
     font-optical-sizing: auto;
     font-size: 40px;
     line-height: 120%;
-    font-weight: 500;
+    font-weight: 600;
   }
 }
 
@@ -2351,7 +2358,7 @@ h3 {
   font-optical-sizing: auto;
   font-size: 56px;
   line-height: 120%;
-  font-weight: 500;
+  font-weight: 600;
 }
 @media screen and (max-width: 960px) {
   h3 {
@@ -2359,7 +2366,7 @@ h3 {
     font-optical-sizing: auto;
     font-size: 48px;
     line-height: 120%;
-    font-weight: 500;
+    font-weight: 600;
   }
 }
 @media screen and (max-width: 620px) {
@@ -2368,7 +2375,7 @@ h3 {
     font-optical-sizing: auto;
     font-size: 32px;
     line-height: 130%;
-    font-weight: 500;
+    font-weight: 600;
   }
 }
 
@@ -2378,7 +2385,7 @@ h4 {
   font-optical-sizing: auto;
   font-size: 40px;
   line-height: 120%;
-  font-weight: 500;
+  font-weight: 600;
 }
 @media screen and (max-width: 960px) {
   h4 {
@@ -2386,7 +2393,7 @@ h4 {
     font-optical-sizing: auto;
     font-size: 32px;
     line-height: 130%;
-    font-weight: 500;
+    font-weight: 600;
   }
 }
 @media screen and (max-width: 620px) {
@@ -2395,7 +2402,7 @@ h4 {
     font-optical-sizing: auto;
     font-size: 24px;
     line-height: 140%;
-    font-weight: 500;
+    font-weight: 600;
   }
 }
 
@@ -2405,7 +2412,7 @@ h5 {
   font-optical-sizing: auto;
   font-size: 28px;
   line-height: 140%;
-  font-weight: 500;
+  font-weight: 600;
 }
 @media screen and (max-width: 960px) {
   h5 {
@@ -2413,7 +2420,7 @@ h5 {
     font-optical-sizing: auto;
     font-size: 24px;
     line-height: 140%;
-    font-weight: 500;
+    font-weight: 600;
   }
 }
 
@@ -2423,7 +2430,7 @@ h6 {
   font-optical-sizing: auto;
   font-size: 24px;
   line-height: 150%;
-  font-weight: 500;
+  font-weight: 600;
 }
 @media screen and (max-width: 960px) {
   h6 {
@@ -2431,7 +2438,7 @@ h6 {
     font-optical-sizing: auto;
     font-size: 20px;
     line-height: 150%;
-    font-weight: 500;
+    font-weight: 600;
   }
 }
 
@@ -2440,7 +2447,7 @@ h6 {
   font-optical-sizing: auto;
   font-size: 18px;
   line-height: 150%;
-  font-weight: 500;
+  font-weight: 600;
 }
 @media screen and (max-width: 960px) {
   .h7 {
@@ -2448,7 +2455,7 @@ h6 {
     font-optical-sizing: auto;
     font-size: 16px;
     line-height: 150%;
-    font-weight: 500;
+    font-weight: 600;
   }
 }
 
@@ -2457,7 +2464,7 @@ h6 {
   font-optical-sizing: auto;
   font-size: 16px;
   line-height: 150%;
-  font-weight: 400;
+  font-weight: 600;
 }
 @media screen and (max-width: 960px) {
   .h8 {
@@ -2465,7 +2472,7 @@ h6 {
     font-optical-sizing: auto;
     font-size: 14px;
     line-height: 150%;
-    font-weight: 400;
+    font-weight: 600;
   }
 }
 
@@ -2622,7 +2629,7 @@ span {
   font-optical-sizing: auto;
   font-size: 72px;
   line-height: 110%;
-  font-weight: 500;
+  font-weight: 600;
 }
 @media screen and (max-width: 960px) {
   .letter-h1 {
@@ -2630,7 +2637,7 @@ span {
     font-optical-sizing: auto;
     font-size: 56px;
     line-height: 110%;
-    font-weight: 500;
+    font-weight: 600;
   }
 }
 
@@ -2682,7 +2689,7 @@ b {
   font-optical-sizing: auto;
   font-size: 128px;
   line-height: 100%;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 240px;
 }
 @media screen and (max-width: 960px) {
@@ -2691,7 +2698,7 @@ b {
     font-optical-sizing: auto;
     font-size: 80px;
     line-height: 100%;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 144px;
   }
 }
@@ -2702,7 +2709,7 @@ b {
   font-optical-sizing: auto;
   font-size: 128px;
   line-height: 100%;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 144px;
 }
 @media screen and (max-width: 960px) {
@@ -2711,7 +2718,7 @@ b {
     font-optical-sizing: auto;
     font-size: 80px;
     line-height: 100%;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 96px;
   }
 }
@@ -3135,7 +3142,7 @@ nav {
   font-optical-sizing: auto;
   font-size: 16px;
   line-height: 150%;
-  font-weight: 400;
+  font-weight: 600;
   transition: 0.4s ease;
 }
 @media screen and (max-width: 960px) {
@@ -3144,7 +3151,7 @@ nav {
     font-optical-sizing: auto;
     font-size: 14px;
     line-height: 150%;
-    font-weight: 400;
+    font-weight: 600;
   }
 }
 .btn::after {
@@ -3184,7 +3191,7 @@ nav {
   font-optical-sizing: auto;
   font-size: 16px;
   line-height: 150%;
-  font-weight: 400;
+  font-weight: 600;
   transition: 0.4s ease;
   font-weight: 600;
 }
@@ -3194,7 +3201,7 @@ nav {
     font-optical-sizing: auto;
     font-size: 14px;
     line-height: 150%;
-    font-weight: 400;
+    font-weight: 600;
   }
 }
 .btn-secondary:hover {
@@ -3214,7 +3221,7 @@ nav {
   font-optical-sizing: auto;
   font-size: 16px;
   line-height: 150%;
-  font-weight: 400;
+  font-weight: 600;
   transition: 0.4s ease;
   position: relative;
 }
@@ -3224,7 +3231,7 @@ nav {
     font-optical-sizing: auto;
     font-size: 14px;
     line-height: 150%;
-    font-weight: 400;
+    font-weight: 600;
   }
 }
 .btn-third::after {
@@ -3255,7 +3262,7 @@ nav {
   font-optical-sizing: auto;
   font-size: 16px;
   line-height: 150%;
-  font-weight: 400;
+  font-weight: 600;
   transition: 0.4s ease;
 }
 @media screen and (max-width: 960px) {
@@ -3264,7 +3271,7 @@ nav {
     font-optical-sizing: auto;
     font-size: 14px;
     line-height: 150%;
-    font-weight: 400;
+    font-weight: 600;
   }
 }
 .link-footer:hover {
@@ -3307,7 +3314,7 @@ nav {
   font-optical-sizing: auto;
   font-size: 18px;
   line-height: 150%;
-  font-weight: 500;
+  font-weight: 600;
 }
 @media screen and (max-width: 960px) {
   .accordion-button {
@@ -3315,7 +3322,7 @@ nav {
     font-optical-sizing: auto;
     font-size: 16px;
     line-height: 150%;
-    font-weight: 500;
+    font-weight: 600;
   }
 }
 .accordion-button::before {
@@ -3354,7 +3361,7 @@ nav {
   font-optical-sizing: auto;
   font-size: 24px;
   line-height: 150%;
-  font-weight: 500;
+  font-weight: 600;
 }
 @media screen and (max-width: 960px) {
   .accordion-button-transparent {
@@ -3362,7 +3369,7 @@ nav {
     font-optical-sizing: auto;
     font-size: 20px;
     line-height: 150%;
-    font-weight: 500;
+    font-weight: 600;
   }
 }
 .accordion-button-transparent::before {
