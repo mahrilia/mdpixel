@@ -1577,7 +1577,7 @@ canvas {
   right: 0;
   width: 24px;
   height: 100%;
-  background: linear-gradient(270deg, #0F0F0F 0%, rgba(15, 15, 15, 0) 100%);
+  background: linear-gradient(270deg, #051E1F 0%, rgba(5, 30, 31, 0) 100%);
 }
 .swiper-container::before {
   content: "";
@@ -1587,7 +1587,7 @@ canvas {
   z-index: 1;
   width: 18px;
   height: 100%;
-  background: linear-gradient(90deg, #0F0F0F 0%, rgba(15, 15, 15, 0) 100%);
+  background: linear-gradient(90deg, #051E1F 0%, rgba(5, 30, 31, 0) 100%);
 }
 
 .swiper-slide {
@@ -1609,10 +1609,10 @@ canvas {
   height: 48px;
   border-radius: 12px;
   cursor: pointer;
-  background-image: url("../svg/icon-arrow-white.svg");
+  background-image: url("../svg/icon-arrow-right-white.svg");
   background-repeat: no-repeat;
   background-position: center center;
-  background-color: #96F6FA;
+  background-color: #24ADB2;
 }
 
 .button-prev {
@@ -1623,11 +1623,43 @@ canvas {
   height: 48px;
   border-radius: 12px;
   cursor: pointer;
-  background-image: url("../svg/icon-arrow-white.svg");
+  background-image: url("../svg/icon-arrow-right-white.svg");
   background-repeat: no-repeat;
   background-position: center center;
   transform: rotate(180deg);
+  background-color: #24ADB2;
+}
+
+.bg-strip {
+  background-color: #24ADB2;
+}
+
+.strip {
+  animation: strip 10s ease-in-out infinite alternate;
+}
+
+@keyframes strip {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  0% {
+    transform: translate3d(-1000px, 0, 0);
+  }
+}
+.strip-separate {
   background-color: #96F6FA;
+  width: 10px;
+  height: 10px;
+  min-width: 10px;
+  min-height: 10px;
+  border-radius: 2px;
+  transform: rotate(45deg);
+}
+
+.card-testimonials {
+  background-color: #072D2E;
+  border-radius: 24px;
+  padding: 40px 28px;
 }
 
 .s-0 {
@@ -2478,7 +2510,7 @@ h6 {
 
 p {
   letter-spacing: 0px;
-  color: #8BACAD;
+  color: #6D8B8C;
   font-family: "Lato", sans-serif;
   font-optical-sizing: auto;
   font-size: 18px;

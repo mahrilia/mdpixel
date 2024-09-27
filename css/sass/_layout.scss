@@ -1563,7 +1563,7 @@ canvas{
     width: 24px;
     height: 100%;
 
-    background: linear-gradient(270deg, #0F0F0F 0%, rgba(15, 15, 15, 0.00) 100%);
+    background: linear-gradient(270deg, #051E1F 0%, rgba(5, 30, 31, 0) 100%);
   }
 
   &::before{
@@ -1577,7 +1577,7 @@ canvas{
     width: 18px;
     height: 100%;
 
-    background: linear-gradient(90deg, #0F0F0F 0%, rgba(15, 15, 15, 0.00) 100%);
+    background: linear-gradient(90deg, #051E1F 0%, rgba(5, 30, 31, 0) 100%);
   }
 }
 
@@ -1604,11 +1604,11 @@ canvas{
   border-radius: 12px;
 
   cursor: pointer;
-  background-image: url('../svg/icon-arrow-white.svg');
+  background-image: url('../svg/icon-arrow-right-white.svg');
   background-repeat: no-repeat;
   background-position: center center;
 
-  background-color: $primary-light;
+  background-color: $primary-dark;
 }
 
 .button-prev{
@@ -1622,11 +1622,48 @@ canvas{
   border-radius: 12px;
 
   cursor: pointer;
-  background-image: url('../svg/icon-arrow-white.svg');
+  background-image: url('../svg/icon-arrow-right-white.svg');
   background-repeat: no-repeat;
   background-position: center center;
   transform: rotate(180deg);
 
-  background-color: $primary-light;
+  background-color: $primary-dark;
 }
 
+.bg-strip{
+  background-color: $primary-dark;
+}
+
+.strip{
+  animation: strip 10s ease-in-out infinite alternate;
+}
+
+@keyframes strip{
+  0%{
+    transform: translate3d(0,0,0);
+  }
+  0%{
+    transform: translate3d(-1000px,0,0);
+  }
+}
+
+.strip-separate{
+  background-color: $primary-light;
+  width: 10px;
+  height: 10px;
+
+  min-width: 10px;
+  min-height: 10px;
+
+  border-radius: 2px;
+
+  transform: rotate(45deg);
+}
+
+.card-testimonials{
+  background-color: $black-light;
+
+  border-radius: 24px;
+
+  padding: 40px 28px;
+}

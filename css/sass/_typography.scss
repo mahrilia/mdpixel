@@ -275,7 +275,7 @@ h6 {
 
 p {
   letter-spacing: 0px;
-  color: $gray-3;
+  color: $gray-1;
   @include typeface-2(p3, desktop);
   @include responsive(s) {
     @include typeface-2(p3, mobile);
