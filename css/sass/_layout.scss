@@ -1605,6 +1605,7 @@ canvas{
 
   cursor: pointer;
   background-image: url('../svg/icon-arrow-right-white.svg');
+  background-size: 60%;
   background-repeat: no-repeat;
   background-position: center center;
 
@@ -1625,6 +1626,7 @@ canvas{
   background-image: url('../svg/icon-arrow-right-white.svg');
   background-repeat: no-repeat;
   background-position: center center;
+  background-size: 60%;
   transform: rotate(180deg);
 
   background-color: $primary-dark;

@@ -1610,6 +1610,7 @@ canvas {
   border-radius: 12px;
   cursor: pointer;
   background-image: url("../svg/icon-arrow-right-white.svg");
+  background-size: 60%;
   background-repeat: no-repeat;
   background-position: center center;
   background-color: #24ADB2;
@@ -1626,6 +1627,7 @@ canvas {
   background-image: url("../svg/icon-arrow-right-white.svg");
   background-repeat: no-repeat;
   background-position: center center;
+  background-size: 60%;
   transform: rotate(180deg);
   background-color: #24ADB2;
 }
@@ -2515,7 +2517,7 @@ p {
   font-optical-sizing: auto;
   font-size: 18px;
   line-height: 150%;
-  font-weight: 300;
+  font-weight: 500;
 }
 @media screen and (max-width: 960px) {
   p {
@@ -2523,7 +2525,7 @@ p {
     font-optical-sizing: auto;
     font-size: 16px;
     line-height: 150%;
-    font-weight: 300;
+    font-weight: 500;
   }
 }
 @media screen and (max-width: 620px) {
@@ -2532,7 +2534,7 @@ p {
     font-optical-sizing: auto;
     font-size: 14px;
     line-height: 150%;
-    font-weight: 300;
+    font-weight: 500;
   }
 }
 
@@ -2546,7 +2548,7 @@ p {
   font-optical-sizing: auto;
   font-size: 28px;
   line-height: 120%;
-  font-weight: 300;
+  font-weight: 500;
 }
 @media screen and (max-width: 960px) {
   .p1 {
@@ -2554,7 +2556,7 @@ p {
     font-optical-sizing: auto;
     font-size: 24px;
     line-height: 130%;
-    font-weight: 300;
+    font-weight: 500;
   }
 }
 @media screen and (max-width: 620px) {
@@ -2563,7 +2565,7 @@ p {
     font-optical-sizing: auto;
     font-size: 20px;
     line-height: 130%;
-    font-weight: 300;
+    font-weight: 500;
   }
 }
 
@@ -2572,7 +2574,7 @@ p {
   font-optical-sizing: auto;
   font-size: 20px;
   line-height: 140%;
-  font-weight: 300;
+  font-weight: 500;
 }
 @media screen and (max-width: 960px) {
   .p2 {
@@ -2580,7 +2582,7 @@ p {
     font-optical-sizing: auto;
     font-size: 18px;
     line-height: 140%;
-    font-weight: 300;
+    font-weight: 500;
   }
 }
 
@@ -2589,7 +2591,7 @@ p {
   font-optical-sizing: auto;
   font-size: 18px;
   line-height: 150%;
-  font-weight: 300;
+  font-weight: 500;
 }
 @media screen and (max-width: 960px) {
   .p3 {
@@ -2597,7 +2599,7 @@ p {
     font-optical-sizing: auto;
     font-size: 16px;
     line-height: 150%;
-    font-weight: 300;
+    font-weight: 500;
   }
 }
 
@@ -2606,7 +2608,7 @@ p {
   font-optical-sizing: auto;
   font-size: 16px;
   line-height: 150%;
-  font-weight: 300;
+  font-weight: 500;
 }
 @media screen and (max-width: 960px) {
   .p4 {
@@ -2614,7 +2616,7 @@ p {
     font-optical-sizing: auto;
     font-size: 14px;
     line-height: 150%;
-    font-weight: 300;
+    font-weight: 500;
   }
 }
 
@@ -2623,7 +2625,7 @@ p {
   font-optical-sizing: auto;
   font-size: 13px;
   line-height: 150%;
-  font-weight: 300;
+  font-weight: 500;
 }
 @media screen and (max-width: 960px) {
   .p5 {
@@ -2631,7 +2633,7 @@ p {
     font-optical-sizing: auto;
     font-size: 13px;
     line-height: 150%;
-    font-weight: 300;
+    font-weight: 500;
   }
 }
 
@@ -2679,7 +2681,7 @@ strong {
   font-optical-sizing: auto;
   font-size: 20px;
   line-height: 140%;
-  font-weight: 300;
+  font-weight: 500;
 }
 @media screen and (max-width: 960px) {
   strong {
@@ -2687,7 +2689,7 @@ strong {
     font-optical-sizing: auto;
     font-size: 18px;
     line-height: 140%;
-    font-weight: 300;
+    font-weight: 500;
   }
 }
 
@@ -2846,7 +2848,7 @@ nav {
   font-optical-sizing: auto;
   font-size: 18px;
   line-height: 150%;
-  font-weight: 300;
+  font-weight: 500;
   text-decoration: none;
   color: #F7FFFF;
   justify-content: space-between;
@@ -2858,7 +2860,7 @@ nav {
     font-optical-sizing: auto;
     font-size: 16px;
     line-height: 150%;
-    font-weight: 300;
+    font-weight: 500;
   }
 }
 
@@ -2979,7 +2981,7 @@ nav {
   font-optical-sizing: auto;
   font-size: 20px;
   line-height: 140%;
-  font-weight: 300;
+  font-weight: 500;
 }
 .list .item-list:hover {
   padding-left: 56px;
@@ -2990,7 +2992,7 @@ nav {
     font-optical-sizing: auto;
     font-size: 18px;
     line-height: 140%;
-    font-weight: 300;
+    font-weight: 500;
     padding-left: 32px;
   }
   .list .item-list:hover {
@@ -3214,9 +3216,9 @@ nav {
 .btn-secondary {
   display: inline-block;
   background-color: transparent;
-  padding: 14px 40px;
+  padding: 12px 40px;
   text-decoration: none;
-  color: #24ADB2;
+  color: #F7FFFF;
   border-radius: 12px;
   border: 2px solid #24ADB2;
   font-family: "Raleway", sans-serif;
@@ -3337,7 +3339,7 @@ nav {
   text-align: left;
   background-color: transparent;
   position: relative;
-  padding: 32px 16px;
+  padding: 24px 16px;
   border-bottom: 2px solid rgba(0, 0, 0, 0.1);
   background-color: transparent;
   transition: 0.7s ease;
