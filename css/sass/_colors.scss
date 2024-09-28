@@ -69,20 +69,13 @@ $yellow-light: #ffd76b;
 
 .color-gradient{
     display: inline-block;
-    background: linear-gradient(224.78deg, $secondary-normal 8.12%, $secondary-light 92.21%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-.color-gradient2{
-    display: inline-block;
-    background: linear-gradient(175deg, #E48800 8.12%, #FFB33F 92.21%);
+    background: linear-gradient(224.78deg, $primary-light 8.12%, $primary-dark 92.21%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .label{
-    background: linear-gradient(224.78deg, $secondary-normal 8.12%, $secondary-light 92.21%);
+    background: linear-gradient(224.78deg, $primary-light 8.12%, $primary-dark 92.21%);
     display: inline-block;
     padding: 4px 12px;
     border-radius: 4px;
