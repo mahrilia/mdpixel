@@ -1661,6 +1661,24 @@ canvas {
   padding: 40px 28px;
 }
 
+.banner {
+  width: 100%;
+  height: 480px;
+  background-image: url("../svg/img02.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.text-banner {
+  position: absolute;
+  bottom: 40px;
+}
+
+.banner-totem {
+  background-image: url("../svg/img01.webp");
+}
+
 .s-0 {
   margin: 0;
   padding: 0;
