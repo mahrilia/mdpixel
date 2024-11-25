@@ -1634,7 +1634,7 @@ canvas {
 }
 
 .strip {
-  animation: strip 10s ease-in-out infinite alternate;
+  animation: strip;
 }
 
 @keyframes strip {
